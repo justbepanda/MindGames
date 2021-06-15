@@ -1,0 +1,16 @@
+{
+    "name": "hexlet/code",
+    "description": "hexlet php project 1",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mof",
+            "email": "justbepanda@gmail.com"
+        }
+    ],
+    "bin": [
+        "bin/brain-games"
+    ],
+    "require": {}
+}

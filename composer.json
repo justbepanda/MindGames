@@ -1,23 +1,18 @@
 {
-  "name": "hexlet/code",
-  "description": "hexlet php project 1",
-  "type": "project",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "mof",
-      "email": "justbepanda@gmail.com"
+    "name": "hexlet/code",
+    "description": "hexlet php project 1",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mof",
+            "email": "justbepanda@gmail.com"
+        }
+    ],
+    "bin": [
+        "bin/brain-games"
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.12"
     }
-  ],
-  "bin": [
-    "bin/brain-games"
-  ],
-  "require": {
-    "wp-cli/php-cli-tools": "^0.11.12"
-  },
-  "autoload": {
-    "files": [
-      "wp-cli/php-cli-tools"
-    ]
-  }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace brain\games\cli;
+namespace BrainGames\Cli;
 
 use function cli\line;
 use function cli\prompt;
@@ -12,11 +12,12 @@ if (file_exists($autoloadPath1)) {
 } else {
     require_once $autoloadPath2;
 }
-
-function welcome()
+// phpcs:disable
+function welcome(): bool
 {
     line('Welcome to the Brain Games');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     return true;
 }
+// phpcs:enable

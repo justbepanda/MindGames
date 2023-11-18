@@ -13,7 +13,7 @@ function BrainEven()
     line('Answer "yes" if the number is even, otherwise answer "no".');
     $wins = 0;
     while ($wins < 3) {
-        $number = rand();
+        $number = rand(1, 99);
         if ($number % 2 === 0) {
             $correctAnswer = 'yes';
         } else {

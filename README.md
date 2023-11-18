@@ -3,4 +3,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/864a7027eae2f8728c62/maintainability)](https://codeclimate.com/github/justbepanda/php-project-lvl1/maintainability)
 
-[asciinema brain-games brain-even](https://asciinema.org/a/621609)
+[![asciicast](https://asciinema.org/a/621609.svg)](https://asciinema.org/a/621609)
+
+[![asciicast](https://asciinema.org/a/621784.svg)](https://asciinema.org/a/621784)

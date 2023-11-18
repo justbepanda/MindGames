@@ -17,7 +17,7 @@ function BrainCalc()
     while ($wins < 3) {
         $number1 = rand(1, 9);
         $number2 = rand(1, 9);
-        $operations = ['+', '-', '*', '/'];
+        $operations = ['+', '-', '*'];
         $operation = $operations[array_rand($operations)];
 
         line('Question: %s %s %s', $number1, $operation, $number2);
@@ -33,9 +33,6 @@ function BrainCalc()
                 break;
             case ('*'):
                 $correctAnswer = $number1 * $number2;
-                break;
-            case ('/'):
-                $correctAnswer = $number1 / $number2;
                 break;
         }
         $answer = prompt('Your answer');

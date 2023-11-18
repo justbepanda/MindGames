@@ -1,1 +1,8 @@
+#!/usr/bin/env php
 <?php
+require_once __DIR__ . '/../src/cli.php';
+require_once __DIR__ . '/../src/BrainCalc.php';
+
+use function BrainGames\BrainCalc\BrainCalc;
+
+BrainCalc();

@@ -9,4 +9,4 @@ brain-calc:
 validate:
 	composer validate
 lint:
-	composer exec --verbose phpcs -- --standard=PSR12 src binasciinema rec
+	composer exec --verbose phpcs -- --standard=PSR12 src bin

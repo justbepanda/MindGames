@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 require_once __DIR__ . '/../src/cli.php';
-require_once __DIR__ . '/../src/Games.php';
+require_once __DIR__ . '/../src/Games/brain-calc.php';
 
 use function BrainGames\Games\BrainCalc;
 

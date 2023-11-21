@@ -30,7 +30,7 @@ function BrainProgression()
         $stringProgression = implode(' ', $progression);
         askQuestion("$stringProgression");
         $answer = getAnswer();
-        $result = checkAnswer($answer, $correctAnswer);
+        $result = checkAnswer($answer, (string) $correctAnswer);
         if ($result === true) {
             $wins++;
         } else {

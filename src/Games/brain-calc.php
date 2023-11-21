@@ -34,7 +34,7 @@ function BrainCalc()
                 $correctAnswer = $number1 * $number2;
                 break;
         }
-        $result = checkAnswer($answer, $correctAnswer);
+        $result = checkAnswer($answer, (string) $correctAnswer);
         if ($result === true) {
             $wins++;
         } else {

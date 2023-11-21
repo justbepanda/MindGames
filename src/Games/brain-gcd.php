@@ -30,7 +30,7 @@ function BrainGcd()
         if ($result === true) {
             $wins++;
         } else {
-            $wins = 0;
+            return false;
         }
     }
     showVictory();

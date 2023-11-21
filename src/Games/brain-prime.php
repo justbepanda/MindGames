@@ -10,7 +10,7 @@ use function BrainGames\Engine\getAnswer;
 use function BrainGames\Engine\showVictory;
 use function BrainGames\Engine\welcome;
 
-function isPrime($n): string
+function isPrime(int $n): string
 {
     for ($x = 2; $x < $n; $x++) {
         if ($n % $x === 0) {

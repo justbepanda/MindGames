@@ -5,7 +5,7 @@ namespace BrainGames\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function welcome($gameRules)
+function welcome(string $gameRules)
 {
     global $name;
     line('Welcome to the Brain Games!');
@@ -14,7 +14,7 @@ function welcome($gameRules)
     line('%s', $gameRules);
 }
 
-function askQuestion($question)
+function askQuestion(string $question)
 {
     line("Question: $question");
 }
@@ -24,7 +24,7 @@ function getAnswer()
     return prompt('Your answer');
 }
 
-function checkAnswer($answer, $correctAnswer)
+function checkAnswer(string $answer, string $correctAnswer)
 {
     global $name;
     if ($answer == $correctAnswer) {

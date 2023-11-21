@@ -10,9 +10,18 @@ use function BrainGames\Engine\getAnswer;
 use function BrainGames\Engine\showVictory;
 use function BrainGames\Engine\welcome;
 
-function gcd($a, $b)
+function gcd(int $a, int $b)
 {
-    return ($a % $b) ? gcd($b, $a % $b) : $b;
+    while (true) {
+        if ($a == $b) {
+            return $b;
+        }
+        if ($a > $b) {
+            $a -= $b;
+        } else {
+            $b -= $a;
+        }
+    }
 }
 
 function BrainGcd()

@@ -15,7 +15,7 @@ if (file_exists($autoloadPath1)) {
 // phpcs:disable
 function welcome(): bool
 {
-    line('Welcome to the Brain Games');
+    line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
     line("Hello, $name!");
     return true;

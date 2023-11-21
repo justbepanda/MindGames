@@ -32,7 +32,7 @@ function checkAnswer($answer, $correctAnswer)
         return true;
     } else {
         line('\'%s\' is wrong answer ;(. Correct answer was \'%s\'.', $answer, $correctAnswer);
-        line('Let\'s try again, %s', $name);
+        line('Let\'s try again, %s!', $name);
         return false;
     }
 }

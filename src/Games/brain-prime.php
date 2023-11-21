@@ -26,7 +26,7 @@ function BrainPrime()
     welcome($gameRules);
     $wins = 0;
     while ($wins < 3) {
-        $number = rand(1, 50);
+        $number = rand(2, 50);
         askQuestion("$number");
         $answer = getAnswer();
         $correctAnswer = isPrime($number);

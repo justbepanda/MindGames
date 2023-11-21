@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-$cliPath1 = __DIR__ . '/../../../autoload.php';
+$cliPath1 = __DIR__ . '/../../../cli.php';
 $cliPath2 = __DIR__ . '/../src/cli.php';
 if (file_exists($cliPath1)) {
     require_once $cliPath1;

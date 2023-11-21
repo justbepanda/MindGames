@@ -1,6 +1,13 @@
 #!/usr/bin/env php
 <?php
-require_once __DIR__ . '/../src/cli.php';
+
+$cliPath1 = __DIR__ . '/../../../autoload.php';
+$cliPath2 = __DIR__ . '/../src/cli.php';
+if (file_exists($cliPath1)) {
+    require_once $cliPath1;
+} else {
+    require_once $cliPath2;
+}
 
 use function BrainGames\Cli\welcome;
 

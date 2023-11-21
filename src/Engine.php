@@ -42,4 +42,3 @@ function showVictory()
     global $name;
     line('Congratulations, %s!', $name);
 }
-
